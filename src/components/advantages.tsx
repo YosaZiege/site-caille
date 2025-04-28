@@ -1,6 +1,6 @@
 import React from 'react';
 import { advantages } from "../lib/data";
-import { FaMedal , FaLeaf, FaHeadset } from 'react-icons/fa';
+import { FaMedal, FaLeaf, FaHeadset } from 'react-icons/fa';
 import { FaTruckFast } from "react-icons/fa6";
 
 const Advantages = () => {
@@ -21,7 +21,7 @@ const Advantages = () => {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                {advantages.map((advantage, index) => {
-                  const IconComponent = iconMap[advantage.icon];
+                  const IconComponent = iconMap[advantage.icon as keyof typeof iconMap];
                   return (
                      <div
                         key={index}

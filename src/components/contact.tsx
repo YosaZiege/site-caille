@@ -99,7 +99,7 @@ const Contact = () => {
                               <i className="fas fa-clock text-amber-600"></i>
                            </div>
                            <div>
-                              <h4 className="font-medium">Horaires d'ouverture</h4>
+                              <h4 className="font-medium">Horaires d&apos;ouverture</h4>
                               <p className="text-gray-600">
                                  Lundi - Vendredi: 9h00 - 18h00
                               </p>

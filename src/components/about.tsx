@@ -20,20 +20,20 @@ const About = () => {
                   </h2>
                   <p className="text-gray-700 mb-4">
                      Depuis plus de 20 ans, notre ferme familiale se consacre à
-                     l'élevage de cailles de qualité supérieure. Nous avons à cœur
-                     de proposer des produits d'excellence, dans le respect du
-                     bien-être animal et de l'environnement.
+                     l&apos;élevage de cailles de qualité supérieure. Nous avons à cœur
+                     de proposer des produits d&apos;excellence, dans le respect du
+                     bien-être animal et de l&apos;environnement.
                   </p>
                   <p className="text-gray-700 mb-4">
                      Nos cailles sont élevées en plein air, nourries avec des
                      aliments naturels et sans OGM. Nous privilégions les méthodes
-                     d'élevage traditionnelles pour garantir une qualité gustative
+                     d&apos;élevage traditionnelles pour garantir une qualité gustative
                      incomparable.
                   </p>
                   <p className="text-gray-700 mb-6">
-                     Notre passion pour l'élevage de qualité nous a permis
-                     d'obtenir plusieurs certifications qui témoignent de notre
-                     engagement pour l'excellence.
+                     Notre passion pour l&apos;élevage de qualité nous a permis
+                     d&apos;obtenir plusieurs certifications qui témoignent de notre
+                     engagement pour l&apos;excellence.
                   </p>
 
                   <div className="flex space-x-4">
