@@ -1,0 +1,56 @@
+import React from 'react'
+import { Badge } from './ui/badge'
+
+const About = () => {
+   return (
+      <section id="about" className="py-16 bg-white">
+         <div className="container mx-auto px-4">
+            <div className="flex flex-col md:flex-row items-center gap-12">
+               <div className="md:w-1/2">
+                  <img
+                     src="caille.jpg"
+                     alt="Notre élevage de cailles"
+                     className="rounded-lg shadow-lg w-full h-auto"
+                  />
+               </div>
+
+               <div className="md:w-1/2">
+                  <h2 className="text-3xl font-bold mb-6 text-amber-800">
+                     À propos de notre élevage
+                  </h2>
+                  <p className="text-gray-700 mb-4">
+                     Depuis plus de 20 ans, notre ferme familiale se consacre à
+                     l'élevage de cailles de qualité supérieure. Nous avons à cœur
+                     de proposer des produits d'excellence, dans le respect du
+                     bien-être animal et de l'environnement.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                     Nos cailles sont élevées en plein air, nourries avec des
+                     aliments naturels et sans OGM. Nous privilégions les méthodes
+                     d'élevage traditionnelles pour garantir une qualité gustative
+                     incomparable.
+                  </p>
+                  <p className="text-gray-700 mb-6">
+                     Notre passion pour l'élevage de qualité nous a permis
+                     d'obtenir plusieurs certifications qui témoignent de notre
+                     engagement pour l'excellence.
+                  </p>
+
+                  <div className="flex space-x-4">
+                     <Badge className="px-3 py-1 bg-green-100 text-green-800 border border-green-300">
+                        <i className="fas fa-certificate mr-2"></i>
+                        Agriculture Biologique
+                     </Badge>
+                     <Badge className="px-3 py-1 bg-blue-100 text-blue-800 border border-blue-300">
+                        <i className="fas fa-award mr-2"></i>
+                        Label Rouge
+                     </Badge>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   )
+}
+
+export default About
