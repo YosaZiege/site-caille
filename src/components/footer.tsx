@@ -1,5 +1,14 @@
 import React from 'react'
 import { Separator } from './ui/separator'
+import {
+   FaFacebookF,
+   FaInstagram,
+   FaTwitter,
+   FaYoutube,
+   FaMapMarkerAlt,
+   FaPhoneAlt,
+   FaEnvelope
+} from 'react-icons/fa'
 
 const Footer = () => {
    return (
@@ -17,25 +26,25 @@ const Footer = () => {
                         href="#"
                         className="text-white hover:text-amber-300 cursor-pointer"
                      >
-                        <i className="fab fa-facebook-f"></i>
+                        <FaFacebookF />
                      </a>
                      <a
                         href="#"
                         className="text-white hover:text-amber-300 cursor-pointer"
                      >
-                        <i className="fab fa-instagram"></i>
+                        <FaInstagram />
                      </a>
                      <a
                         href="#"
                         className="text-white hover:text-amber-300 cursor-pointer"
                      >
-                        <i className="fab fa-twitter"></i>
+                        <FaTwitter />
                      </a>
                      <a
                         href="#"
                         className="text-white hover:text-amber-300 cursor-pointer"
                      >
-                        <i className="fab fa-youtube"></i>
+                        <FaYoutube />
                      </a>
                   </div>
                </div>
@@ -128,15 +137,15 @@ const Footer = () => {
                   <h3 className="text-xl font-semibold mb-4">Contact</h3>
                   <ul className="space-y-2">
                      <li className="flex items-start">
-                        <i className="fas fa-map-marker-alt mt-1 mr-2 text-amber-300"></i>
+                        <FaMapMarkerAlt className="mt-1 mr-2 text-amber-300" />
                         <span>123 Route des Cailles, 75000 Paris, France</span>
                      </li>
                      <li className="flex items-start">
-                        <i className="fas fa-phone-alt mt-1 mr-2 text-amber-300"></i>
-                        <span>+33 1 23 45 67 89</span>
+                        <FaPhoneAlt className="mt-1 mr-2 text-amber-300" />
+                        <span>+06 09 39 88 30</span>
                      </li>
                      <li className="flex items-start">
-                        <i className="fas fa-envelope mt-1 mr-2 text-amber-300"></i>
+                        <FaEnvelope className="mt-1 mr-2 text-amber-300" />
                         <span>contact@caillespremium.fr</span>
                      </li>
                   </ul>

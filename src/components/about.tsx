@@ -1,5 +1,6 @@
 import React from 'react'
 import { Badge } from './ui/badge'
+import { FaCertificate, FaAward } from 'react-icons/fa'
 
 const About = () => {
    return (
@@ -38,11 +39,11 @@ const About = () => {
 
                   <div className="flex space-x-4">
                      <Badge className="px-3 py-1 bg-green-100 text-green-800 border border-green-300">
-                        <i className="fas fa-certificate mr-2"></i>
+                        <FaCertificate className="mr-2 inline" />
                         Agriculture Biologique
                      </Badge>
                      <Badge className="px-3 py-1 bg-blue-100 text-blue-800 border border-blue-300">
-                        <i className="fas fa-award mr-2"></i>
+                        <FaAward className="mr-2 inline" />
                         Label Rouge
                      </Badge>
                   </div>

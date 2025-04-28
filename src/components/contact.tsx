@@ -2,6 +2,24 @@ import React from 'react'
 import { Separator } from './ui/separator'
 import { Input } from './ui/input'
 import { Button } from './ui/button'
+import { 
+  FaMapMarkerAlt, 
+  FaPhoneAlt, 
+  FaEnvelope, 
+  FaClock,
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaYoutube,
+  FaShieldAlt,
+  FaTruck,
+  FaUndoAlt,
+  FaHeadset,
+  FaCcVisa,
+  FaCcMastercard,
+  FaCcPaypal,
+  FaCcApplePay
+} from 'react-icons/fa'
 
 const Contact = () => {
    return (
@@ -64,7 +82,7 @@ const Contact = () => {
                      <div className="space-y-6">
                         <div className="flex items-start">
                            <div className="bg-amber-100 p-3 rounded-full mr-4">
-                              <i className="fas fa-map-marker-alt text-amber-600"></i>
+                              <FaMapMarkerAlt className="text-amber-600" />
                            </div>
                            <div>
                               <h4 className="font-medium">Adresse</h4>
@@ -76,17 +94,17 @@ const Contact = () => {
 
                         <div className="flex items-start">
                            <div className="bg-amber-100 p-3 rounded-full mr-4">
-                              <i className="fas fa-phone-alt text-amber-600"></i>
+                              <FaPhoneAlt className="text-amber-600" />
                            </div>
                            <div>
                               <h4 className="font-medium">Téléphone</h4>
-                              <p className="text-gray-600">+33 1 23 45 67 89</p>
+                              <p className="text-gray-600">+06 09 39 88 30</p>
                            </div>
                         </div>
 
                         <div className="flex items-start">
                            <div className="bg-amber-100 p-3 rounded-full mr-4">
-                              <i className="fas fa-envelope text-amber-600"></i>
+                              <FaEnvelope className="text-amber-600" />
                            </div>
                            <div>
                               <h4 className="font-medium">Email</h4>
@@ -96,7 +114,7 @@ const Contact = () => {
 
                         <div className="flex items-start">
                            <div className="bg-amber-100 p-3 rounded-full mr-4">
-                              <i className="fas fa-clock text-amber-600"></i>
+                              <FaClock className="text-amber-600" />
                            </div>
                            <div>
                               <h4 className="font-medium">Horaires d&apos;ouverture</h4>
@@ -112,25 +130,25 @@ const Contact = () => {
                               href="#"
                               className="bg-amber-100 hover:bg-amber-200 text-amber-600 p-3 rounded-full cursor-pointer"
                            >
-                              <i className="fab fa-facebook-f"></i>
+                              <FaFacebookF />
                            </a>
                            <a
                               href="#"
                               className="bg-amber-100 hover:bg-amber-200 text-amber-600 p-3 rounded-full cursor-pointer"
                            >
-                              <i className="fab fa-instagram"></i>
+                              <FaInstagram />
                            </a>
                            <a
                               href="#"
                               className="bg-amber-100 hover:bg-amber-200 text-amber-600 p-3 rounded-full cursor-pointer"
                            >
-                              <i className="fab fa-twitter"></i>
+                              <FaTwitter />
                            </a>
                            <a
                               href="#"
                               className="bg-amber-100 hover:bg-amber-200 text-amber-600 p-3 rounded-full cursor-pointer"
                            >
-                              <i className="fab fa-youtube"></i>
+                              <FaYoutube />
                            </a>
                         </div>
                      </div>
@@ -143,22 +161,22 @@ const Contact = () => {
             <div className="container mx-auto px-4">
                <div className="flex flex-wrap justify-center items-center gap-8">
                   <div className="text-center">
-                     <i className="fas fa-shield-alt text-3xl text-gray-500 mb-2"></i>
+                     <FaShieldAlt className="text-3xl text-gray-500 mb-2 mx-auto" />
                      <p className="text-sm text-gray-600">Paiement Sécurisé</p>
                   </div>
 
                   <div className="text-center">
-                     <i className="fas fa-truck text-3xl text-gray-500 mb-2"></i>
+                     <FaTruck className="text-3xl text-gray-500 mb-2 mx-auto" />
                      <p className="text-sm text-gray-600">Livraison Rapide</p>
                   </div>
 
                   <div className="text-center">
-                     <i className="fas fa-undo-alt text-3xl text-gray-500 mb-2"></i>
+                     <FaUndoAlt className="text-3xl text-gray-500 mb-2 mx-auto" />
                      <p className="text-sm text-gray-600">Retours sous 14 jours</p>
                   </div>
 
                   <div className="text-center">
-                     <i className="fas fa-headset text-3xl text-gray-500 mb-2"></i>
+                     <FaHeadset className="text-3xl text-gray-500 mb-2 mx-auto" />
                      <p className="text-sm text-gray-600">Support 7j/7</p>
                   </div>
                </div>
@@ -166,10 +184,10 @@ const Contact = () => {
                <Separator className="my-8" />
 
                <div className="flex flex-wrap justify-center items-center gap-6">
-                  <i className="fab fa-cc-visa text-3xl text-gray-500"></i>
-                  <i className="fab fa-cc-mastercard text-3xl text-gray-500"></i>
-                  <i className="fab fa-cc-paypal text-3xl text-gray-500"></i>
-                  <i className="fab fa-cc-apple-pay text-3xl text-gray-500"></i>
+                  <FaCcVisa className="text-3xl text-gray-500" />
+                  <FaCcMastercard className="text-3xl text-gray-500" />
+                  <FaCcPaypal className="text-3xl text-gray-500" />
+                  <FaCcApplePay className="text-3xl text-gray-500" />
                </div>
             </div>
          </section>
