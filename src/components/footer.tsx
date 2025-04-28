@@ -138,7 +138,7 @@ const Footer = () => {
                   <ul className="space-y-2">
                      <li className="flex items-start">
                         <FaMapMarkerAlt className="mt-1 mr-2 text-amber-300" />
-                        <span>123 Route des Cailles, 75000 Paris, France</span>
+                        <span>Morroco</span>
                      </li>
                      <li className="flex items-start">
                         <FaPhoneAlt className="mt-1 mr-2 text-amber-300" />
