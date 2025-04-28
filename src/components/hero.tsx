@@ -19,7 +19,7 @@ const Hero = () => {
                   Cailles de Qualité Supérieure
                </h1>
                <p className="text-xl mb-8">
-                  Découvrez l'excellence de nos cailles élevées avec passion, pour
+                  Découvrez l&apos;excellence de nos cailles élevées avec passion, pour
                   une expérience gastronomique incomparable.
                </p>
                <Button className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-6 text-lg !rounded-button cursor-pointer whitespace-nowrap">

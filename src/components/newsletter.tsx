@@ -22,7 +22,7 @@ const NewsLetter = () => {
                      className="flex-grow border-amber-300 focus:border-amber-500 focus:ring-amber-500 text-sm"
                   />
                   <Button className="bg-amber-600 hover:bg-amber-700 text-white !rounded-button cursor-pointer whitespace-nowrap">
-                     S'inscrire
+                     S&apos;inscrire
                      <i className="fas fa-paper-plane ml-2"></i>
                   </Button>
                </div>

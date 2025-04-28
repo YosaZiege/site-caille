@@ -41,7 +41,7 @@ const Testimonials = () => {
                               ></i>
                            ))}
                         </div>
-                        <p className="italic mb-4">"{testimonial.comment}"</p>
+                        <p className="italic mb-4">&apos;{testimonial.comment}&apos;</p>
                         <div className="font-semibold">{testimonial.name}</div>
                         <div className="text-amber-300 text-sm">
                            {testimonial.role}

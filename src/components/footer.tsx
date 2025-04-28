@@ -9,7 +9,7 @@ const Footer = () => {
                <div>
                   <h3 className="text-xl font-semibold mb-4">Cailles Premium</h3>
                   <p className="mb-4 text-amber-200">
-                     Spécialiste de l'élevage et de la commercialisation de cailles
+                     Spécialiste de l&apos;élevage et de la commercialisation de cailles
                      de qualité supérieure depuis plus de 20 ans.
                   </p>
                   <div className="flex space-x-4">
