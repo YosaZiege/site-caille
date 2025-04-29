@@ -87,7 +87,7 @@ const Contact = () => {
                            <div>
                               <h4 className="font-medium">Adresse</h4>
                               <p className="text-gray-600">
-                                 123 Route des Cailles, 75000 Paris, France
+                                 Morroco
                               </p>
                            </div>
                         </div>
@@ -98,7 +98,7 @@ const Contact = () => {
                            </div>
                            <div>
                               <h4 className="font-medium">Téléphone</h4>
-                              <p className="text-gray-600">+06 09 39 88 30</p>
+                              <p className="text-gray-600">06 09 39 88 30</p>
                            </div>
                         </div>
 

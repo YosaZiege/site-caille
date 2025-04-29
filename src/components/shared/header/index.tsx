@@ -14,7 +14,7 @@ const Header = () => {
                   className="h-12 w-auto"
                />
                <span className="text-xl font-bold text-amber-800">
-                  Cailles 
+                  Quail
                </span>
             </div>
 
